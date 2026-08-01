@@ -1,7 +1,16 @@
 aid: recycleye
 name: Recycleye
-description: Recycleye is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Recycleye is a London-based company building AI-powered sorting equipment and
+  analytics for waste management and material recovery businesses worldwide. Its
+  products include Recycleye QualiBot robotic sorting cells, Recycleye QuantiSort
+  optical sorting technology, and Recycleye Insights, a data analytics platform
+  that uses computer vision (WasteNet) to identify and categorize waste streams.
+  The company sells hardware and software into recycling operations to improve
+  purity, recovery rates, and profitability. It was surfaced as a portfolio
+  company of DCVC. As of this enrichment pass Recycleye publishes no public API,
+  developer portal, or SDK; this profile captures its identity and public web
+  properties only.
 url: https://raw.githubusercontent.com/api-evangelist/recycleye/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,51 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://recycleye.com/wp-content/uploads/2021/09/recycleye-logo.png
 tags:
 - Company
+- Recycling
+- Waste Management
+- Artificial Intelligence
+- Computer Vision
+- Robotics
+- Sustainability
+- Circular Economy
 apis: []
+common:
+- type: DomainSecurity
+  url: security/recycleye-domain-security.yml
+- type: Website
+  url: https://recycleye.com
+- type: Support
+  url: https://recycleye.com/contact/
+- type: Blog
+  url: https://recycleye.com/news-events/
+- type: PrivacyPolicy
+  url: https://recycleye.com/privacy-policy/
+- type: TermsOfService
+  url: https://recycleye.com/terms-of-use/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
